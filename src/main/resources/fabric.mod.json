@@ -5,10 +5,11 @@
   "name": "TrouserStreak",
   "description": "Trouser-Streak is a compilation of modules, updated to the latest version and optimized for maximum grief. I did not make all of these.",
   "authors": [
-    "etianl, and various authors"
+    "etianl, and various authors (FIXED VERSION BY Slavik69420)"
   ],
   "contact": {
     "repo": "https://github.com/etianl/Trouser-Streak/"
+    "repo": "https://github.com/Slavik69420/Help-my-the-mod-dosnt-work-becouse-trouser-wants-the-shulker-view-thing-protected-FIXED"
   },
   "icon": "assets/icon/icon.png",
   "environment": "client",
