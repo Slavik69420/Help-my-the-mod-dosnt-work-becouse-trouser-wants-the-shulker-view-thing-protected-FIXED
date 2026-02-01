@@ -16,7 +16,7 @@ public abstract class MinecraftClientMixin {
     )
     private void onDoAttack(CallbackInfoReturnable<Boolean> cir) {
         if (InfiniteReach.INSTANCE != null && InfiniteReach.INSTANCE.isActive() && InfiniteReach.INSTANCE.hoveredTarget != null) {
-            InfiniteReach.INSTANCE.hitEntity(InfiniteReach.INSTANCE.hoveredTarget);
+            InfiniteReach.INSTANCE.hitEntity(InfiniteReach.INSTANCE.hoveredTarget, false);
             cir.setReturnValue(true);
         }
     }
