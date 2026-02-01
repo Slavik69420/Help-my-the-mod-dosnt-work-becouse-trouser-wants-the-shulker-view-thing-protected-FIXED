@@ -20,7 +20,8 @@ public class ShulkerBoxScreenMixin extends Screen {
     }
 
     @Override
-    protected void init()
+    // Changed from protected to public to match Minecraft's requirements (or an mod)
+    public void init() 
     {
         super.init();
         if(Modules.get().isActive(ShulkerDupe.class)) {
@@ -34,8 +35,7 @@ public class ShulkerBoxScreenMixin extends Screen {
                     .size( 50, 15)
                     .build()
             );
-
-    }
+        }
     }
 
     private void dupe() {
