@@ -175,7 +175,7 @@ public class BetterScaffold extends Module {
             .build()
     );
 
-    private final Pool<RenderBlock> renderBlockPool = new Pool<>(RenderBlock::new);
+    private final Pool<BlockPos.Mutable> pool = new Pool<>(() -> new BlockPos.Mutable());
     private final List<RenderBlock> renderBlocks = new ArrayList<>();
 
     private final BlockPos.Mutable bp = new BlockPos.Mutable();
